@@ -1,0 +1,13 @@
+= `append_db`
+
+image:https://travis-ci.com/kshramt/append_db.svg?branch=master["Build Status", link="https://travis-ci.com/kshramt/append_db"]
+
+== Release
+
+
+
+----
+rm -fr append_db.egg-info
+python3 setup.py sdist
+twine upload dist/append_db-x.y.z.tar.gz
+----
